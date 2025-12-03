@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Management Company</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin:0; padding:0; background:#f4f4f4; }
+        header { background:#ff6b6b; color:white; padding:20px; text-align:center; }
+        nav { background:#333; padding:10px; }
+        nav a { color:white; margin:10px; text-decoration:none; }
+        .container { width:80%; margin:auto; padding:20px; }
+        .section { background:white; padding:20px; margin-bottom:20px; border-radius:8px; }
+        .event { background:#fafafa; padding:15px; margin-bottom:12px; border-left:5px solid #ff6b6b; }
+        .booking input, .booking select { width:100%; padding:10px; margin:6px 0; }
+        button { padding:10px 20px; background:#ff6b6b; color:white; border:none; cursor:pointer; }
+        .testimonial { background:#fff7e6; padding:15px; border-radius:6px; margin-bottom:10px; }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Elite Event Management</h1>
+    <p>Making Your Moments Magical ✨</p>
+</header>
+
+<nav>
+    <a href="#events">Events</a>
+    <a href="#booking">Book Event</a>
+    <a href="#testimonials">Testimonials</a>
+</nav>
+
+<div class="container">
+
+    <!-- Event Listings -->
+    <div class="section" id="events">
+        <h2>Upcoming & Available Events</h2>
+
+        <div class="event">
+            <h3>Wedding Planning</h3>
+            <p>Full wedding decoration, music, stage, catering & photography.</p>
+            <strong>Price:</strong> ₹1,50,000 - ₹6,00,000
+        </div>
+
+        <div class="event">
+            <h3>Corporate Events</h3>
+            <p>Conferences, office parties, award ceremonies, branding events.</p>
+            <strong>Price:</strong> ₹50,000 - ₹3,00,000
+        </div>
+
+        <div class="event">
+            <h3>Birthday Parties</h3>
+            <p>Themed decoration, cake arrangement, games, lights & music.</p>
+            <strong>Price:</strong> ₹10,000 - ₹80,000
+        </div>
+
+        <div class="event">
+            <h3>Concerts & Live Shows</h3>
+            <p>Stage setup, sound system, lighting, artist management.</p>
+            <strong>Price:</strong> ₹2,00,000 - ₹10,00,000
+        </div>
+    </div>
+
+    <!-- Booking Form -->
+    <div class="section booking" id="booking">
+        <h2>Book Your Event</h2>
+        <input type="text" placeholder="Your Name">
+        <input type="email" placeholder="Your Email">
+        <select>
+            <option>Select Event Type</option>
+            <option>Wedding</option>
+            <option>Corporate Event</option>
+            <option>Birthday Party</option>
+            <option>Concert</option>
+        </select>
+        <input type="date">
+        <button>Submit Booking</button>
+    </div>
+
+    <!-- Testimonials -->
+    <div class="section" id="testimonials">
+        <h2>What Clients Say</h2>
+
+        <div class="testimonial">
+            <p>"They made our wedding absolutely beautiful! Every detail was perfect."</p>
+            <strong>- Priya & Rohan</strong>
+        </div>
+
+        <div class="testimonial">
+            <p>"Professional team! Our corporate event was a big success. Highly recommended."</p>
+            <strong>- Infosys HR Team</strong>
+        </div>
+
+        <div class="testimonial">
+            <p>"Best birthday setup ever! My daughter loved the decoration and games."</p>
+            <strong>- Anjali Sharma</strong>
+        </div>
+    </div>
+
+</div>
+
+</body>
+</html>
